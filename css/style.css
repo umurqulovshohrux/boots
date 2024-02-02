@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fon_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.container {
+    width: 1030px;
+    height: 550px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 15vh;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-around;
+
+}
+
+.fon_boots {
+    width: 486px;
+    height: 315px;
+   
+
+}
+
+.fon_title {
+    width: 176.625px;
+    height: 27px;
+    color: #1345F9;
+    font-size: 25.79px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.fon_title:hover{
+    color: springgreen;
+}
+
+.boots_img {
+    display: flex;
+    flex-direction: column;
+    row-gap: 37px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+.run_shoe {
+    width: 318px;
+    height: 29px;
+    color: #1345F9;
+    font-size: 25.703px;
+    font-weight: 400;
+}
+.run_shoe:hover{
+    color: red;
+}
+
+.nike_epic {
+    width: 316px;
+    height: 90.964px;
+    color: #000;
+    font-size: 34.412px;
+    font-weight: 400;
+}
+.nike_epic:hover{
+    color: fuchsia;
+}
+
+.narx {
+    width: 94px;
+    height: 37.342px;
+    color: #1345F9;
+    font-size: 38.031px;
+    font-weight: 400;
+}
+.narx:hover{
+    color: rgb(237, 23, 23);
+}
+
+.lorem {
+    width: 316px;
+    height: 189px;
+    color: #000;
+    font-size: 20.963px;
+    font-weight: 400;
+}
+
+.button {
+    color: #FFF;
+    width: 316px;
+    height: 63.828px;
+    background-color: #1345F9;
+    display: flex;
+    text-align: center;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.button:hover{
+    color: black;
+    background-color: green;
+}
